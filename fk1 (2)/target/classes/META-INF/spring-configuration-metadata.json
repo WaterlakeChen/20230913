@@ -1,0 +1,67 @@
+{
+  "groups": [
+    {
+      "name": "ez",
+      "type": "cn.lzy.customconfig.CustonProperties",
+      "sourceType": "cn.lzy.customconfig.CustonProperties"
+    },
+    {
+      "name": "student",
+      "type": "cn.lzy.configbean.Student",
+      "sourceType": "cn.lzy.configbean.Student"
+    },
+    {
+      "name": "user",
+      "type": "cn.lzy.configbean.User",
+      "sourceType": "cn.lzy.configbean.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ez.s",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.lzy.customconfig.CustonProperties"
+    },
+    {
+      "name": "ez.w",
+      "type": "java.lang.String",
+      "sourceType": "cn.lzy.customconfig.CustonProperties"
+    },
+    {
+      "name": "student.age",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.lzy.configbean.Student"
+    },
+    {
+      "name": "student.course",
+      "type": "cn.lzy.configbean.Course",
+      "sourceType": "cn.lzy.configbean.Student"
+    },
+    {
+      "name": "student.elect-product",
+      "type": "java.util.List",
+      "sourceType": "cn.lzy.configbean.Student"
+    },
+    {
+      "name": "student.fridends",
+      "type": "java.util.Map",
+      "sourceType": "cn.lzy.configbean.Student"
+    },
+    {
+      "name": "student.hobby",
+      "type": "java.lang.String[]",
+      "sourceType": "cn.lzy.configbean.Student"
+    },
+    {
+      "name": "student.id",
+      "type": "java.lang.Integer",
+      "sourceType": "cn.lzy.configbean.Student"
+    },
+    {
+      "name": "student.name",
+      "type": "java.lang.String",
+      "sourceType": "cn.lzy.configbean.Student"
+    }
+  ],
+  "hints": []
+}
